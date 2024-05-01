@@ -97,7 +97,7 @@ jobs:
 
   deploy:
     needs: [test, e2e]
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latestp
     steps:
       - uses: actions/checkout@v2
         with:
